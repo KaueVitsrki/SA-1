@@ -1,0 +1,91 @@
+html{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    height: 100%;
+    background-color: rgb(247, 244, 241);
+}
+
+#conteiner{
+    height: 100%;
+    background-color: rgb(247, 244, 241);
+    align-items: center;
+}
+
+#header{
+    margin: auto;
+    height: 15%;
+    background-color: rgb(32, 30, 31);
+    display: flex;
+    justify-content: center;
+}
+
+#middle{
+    height: 80%;
+    background-color: rgb(247, 244, 241);
+}
+
+#centrar{
+    height: 80%;
+    width: 33%;
+    background-color:rgb(247, 244, 241);
+    float: left;
+}
+
+#meio{
+    height: 60%;
+    width: 35%;
+    background-color: rgb(247, 244, 241);
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+#botaoVe{
+    width: 50%;
+    height: 10%;
+}
+
+#footer{
+    height: 5%;
+    background-color:rgb(247, 244, 241);
+}
+
+.buttons{
+    background-color: #406882;
+    border-radius: 5px;
+    border: 5px solid #406882;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.buttons:hover{
+    background-color: white;
+    border-radius: 5px;
+    border: 5px solid #406882;
+    text-align: center;
+    padding: 5px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input{
+    color: black;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#logo{
+    height: 100%;
+}
+
+#IMGcentrar{
+    width: 100%;
+    display: flex;
+}

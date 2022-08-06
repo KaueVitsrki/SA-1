@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crud</title>
+    <link rel="stylesheet" href="cssCrud.css">
+</head>
+<body onload="MostrarDados()">
+    <div id="conteiner">
+         
+        <div id="header">
+
+            <img src="sixfoto.png" id="logo">
+            <div id="desconectarH">
+                <button class="btnD" onclick="DesconectarConta()">Desconectar</button>
+            </div>
+
+        </div>
+
+            <div id="middle">
+
+                <div id="semIdeia"></div>
+                    <div id="formulario">
+
+                        <div id="mover">
+                            <br><br><br><br><br><br>
+                            <div id="nomeLogado"></div>
+                            <div id="mostrarEmail"></div>
+                            <div id="mostrarChave"></div>
+                            
+                        </div>
+
+                    </div>
+
+                    <div id='mais1'></div>
+
+                <div id="meio">                 
+                    
+                    <h2>Alterar Nome</h2>
+                    <input class="input" type="text" id="nomeUsuarioCrud" placeholder="Alterar nome">
+                    <button class="buttons" onclick="AlterarNome()">Alterar nome</button>
+
+                    <h2>Alterar senha</h2>
+                    <input type="password" class="input" id="senhaAtual" placeholder="Senha atual">
+                    <input type="password" class="input" id="senhaAtualCon" placeholder="Confirmar senha">
+                    <input class="input" type="password" id="novaSenha" placeholder="Nova senha">
+                    <button class="buttons" onclick="AlterarSenha()">Alterar senha</button>
+     
+                    <h2>Deletar Conta</h2>
+                    <input class="input" type="password" id="senhaDeletar" placeholder="Senha atual">
+                    <input class="input" type="password" id="senhaDeletConf" placeholder="Confirmar senha">
+                    <button class="buttons" onclick="DeletarConta()">Deletar Conta</button>
+
+                    <h2>TAG</h2>
+                    <input class="input" type="text" id="tag" placeholder="tag..">
+                    <button class="buttons" id="tagCadastrar" onclick="CadastrarTag()">Cadastrar Tag</button>
+                    <button class="buttons" id="tagCadastrar" onclick="DeletarChave()">Deletar tag</button>
+                    <button class="buttons" id="simularEle" onclick="Simular()">simular</button>
+                </div>
+
+            </div>
+
+        <div id="footer">
+
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+html{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    height: 100%;
+    background-color: white;
+}
+
+#conteiner{
+    height: 100%;
+    background-color: white;
+    align-items: center;
+}
+
+#header{
+    margin: auto;
+    height: 15%;
+    background-color: rgb(32, 30, 31);
+    display: flex;
+    justify-content: center;
+}
+
+#middle{
+    height: 80%;
+    background-color: white;
+
+}
+#semIdeia{
+    height: 10%;
+    width: 5%;
+    background-color: white;
+    display: flex;
+    float: left;
+
+}
+
+#formulario{
+
+    height: 40%;
+    width: 35%;
+    background-color: white;
+    float: left;
+    font-size: 20px;
+
+}
+
+#mais1{
+    height: 40%;
+    width: 20%;
+    display: flex;
+    float: left;
+}
+
+#mover{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#meio{
+    height: 100%;
+    width: 25%;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+}
+
+#footer{
+    height: 5%;
+    background-color:white;
+}
+
+.buttons{
+    background-color: #406882;
+    border-radius: 3px;
+    border: 3px solid #406882;
+    text-align: center;
+    padding: 3px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.buttons:hover{
+    color: white;
+    transform: scale(1.009);
+}
+
+.input{
+    color: black;
+    border-radius: 3px;
+    border: 2px solid #DFDFDE;
+    padding: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#desconectarH{
+    width: 100%;
+    
+}
+
+.btnD{
+    background-color: white;
+    border-radius: 3px;
+    text-align: center;
+    padding: 2px;
+    border: 3px solid;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
